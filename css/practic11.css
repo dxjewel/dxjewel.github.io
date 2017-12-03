@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+*{margin:0;padding:0;}
+body{
+	font-family:sans-sarife;arial.!important;
+	-webkit-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.background{height:900px;background-size:cover;}
+.logo{color:white;text-shadow:2px 2px 2px blue;}
+.logo:hover{color:#1DAD72;}
+.wraper{
+	height: 400px;
+	width: 960px;
+	margin-left: 149px;
+	padding-top: 30px;
+	color: #white;
+	}
+.nav{float: right;
+overflow: hidden;
+background-color: rgba(53, 71, 63, 0.33);
+width: 977px;}
+.nav ul{margin-left: 543px;}
+.nav ul li{    
+list-style: outside none none;
+    float: left;
+    padding: 17px;;
+}
+.nav ul li a{color:white;text-decoration:none;text-shadow: 2px 3px 3px #FFD3FF;}
+
+.nav ul li:hover{background:#1DAD72;}
+
+
+.middle_wraper{
+	    margin-left: 0px;
+    margin-top: 246px;
+    padding: 14px;
+}
+
+.content{
+	background-color: rgba(53, 71, 63, 0.33);
+}
+.content h2{text-align:center;color:white;padding:5px;}
+.content h2:hover{color:#1DAD72;text-shadow:2px 3px 3px #FFD3FF;}
+.content p{text-align:center;color:white;padding:5px;text-shadow:2px 3px 3px #FFD3FF;}
+.content p:hover{color:#1DAD72;}
