@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+*{margin:0;padding:0}
+body{font-family:Sans-Serif, Arial !important; transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;}
+body, html{height:100%;}
+img{max-width:100%}
+a{text-decoration:none}
+
+.container_full{width:100%;height:auto;background:#000000;}
+.container{width:960px;margin:0 auto;padding-top: 25px;}
+.header_bg{background:url(images/ilya-pavlov-87438.jpg);overflow:hidden;height: 400px;}
+.logo{float:left;margin-top: 6px;
+margin-left: 44px;}
+.logo h1{color:#FFC600;margin-left: 36px;
+margin-top: 20px;}
+.nav{float:right;margin-top:15px;}
+.nav ul{}
+.nav ul li{list-style:none;float:left;padding:10px;}
+.nav ul li:hover{border-bottom:2px solid #FFC600;}
+.nav ul li a{color:white;font-weight: bold;padding:15px;}
+.nav ul li a:hover{color:#FFC600;}
+
+.header_fb{width:60px;}
+.header_fb:hover{background:#FFC600;}
+.header_twt{width:60px;}
+.header_twt:hover{background:#FFC600;}
+.header_google{width:60px;}
+.header_google:hover{background:#FFC600;}
+
+.head_title{margin-top: 250px;
+margin-left: 212px;}
+.head_title h1{color:#FFC600;}
+.head_title p{color: #FFF;
+margin-left: 145px;
+margin-top: 32px;
+font-weight: bold;}
+
+.head_title p:hover{color:#843D14;padding:1px;}
+
+
+
+.content_bg{background:#FFFFFF;overflow:hidden;height: 600px;}
+.content_img{margin-top: 136px;
+margin-right: 50px;
+float: left;
+width: 350px;
+margin-left: 100px;}
+.content_img figure{width:300px;padding:10px;background:#FFC600;border-radius: 5px;}
+.content_img figure img{width:300px;}
+
+.content{float:left;width:400px;margin-top: 150px;}
+.content h2{color:#FFC600;font-weight:bold;}
+.content p{font-weight:bold;}
+.content a{padding: 10px;
+background: #FFC600 none repeat scroll 0% 0%;
+display: block;
+width: 76px;
+margin-top: 20px;
+border-radius: 5px;}
+
+.content a:hover{background:#72290A;color:white;}
+
+
+
+.footer_bg{background:#FFC600;height:175px;}
+.footer{text-align: center;
+width: 230px;
+margin-left: 366px;
+padding-top: 39px;}
+.footer h2{color:black;}
+
+.footer ul{text-align:center}
+.footer ul li{text-decoration:none;list-style:none;float:left;}
+.footer ul li a{color:white;margin-left: 5px;}
+.footer ul li a:hover{color:black;}
+
+.footer p{font-weight:bold;color:white;}
+
+mark{color:#FCFCFC;background:none;}
+.fb{width:60px}
+.fb:hover{background:#FFFFFF;}
+.twt{width:60px}
+.twt:hover{background:#FFFFFF;}
+.google{width:60px}
+.google:hover{background:#FFFFFF;}
+
+
+
+ul#sticker{
+	background:none;
+	color:#fff;
+}
+#sticker li{list-style:none;}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:999999999999;
+	margin-top: 186px;
+}
+
+

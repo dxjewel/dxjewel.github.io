@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Protfolio</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	
+<div class="container_full"> 
+<div class="container"> 
+
+	<header class="header_bg"> 
+	<div class="logo"> 
+	<h1 title="This is my Protfolio Website">BIO <mark>ME</mark> </h1>
+	</div>
+	
+	
+	<div class="nav"> 
+	<nav> 
+	<ul>
+		<li><a href="#">home</a></li>
+		<li><a href="#">protfolio</a></li>
+		<li><a href="#">about me</a></li>
+		<li><a href="#">contuct me</a></li>
+	</ul>
+	
+	</nav>
+	</div>
+	
+	<div class="stick"> 
+	<ul id="sticker">
+		<li><a href="#"><img class="header_fb" src="images/fb.png" alt="fb" /></a></li>
+		<li><a href="#"><img class="header_twt" src="images/twitter.png" alt="twt" /></a></li>
+		<li><a href="#"><img class="header_google" src="images/google.png" alt="g" /></a></li>
+		
+	</ul>
+	
+	</div>
+	
+	<div class="head_title"> 
+	<h1>HELLO I'AM SAIFUL ISLAM JEWEL</h1>
+	<p>Web Designer / Developer.</p>
+	
+	</div>
+	
+	
+	</header>
+	
+</div>
+</div>
+	
+	
+	
+	
+<div class="container_full"> 
+<div class="container content_bg"> 
+	
+	<div class="content_img"> 
+	<figure> 
+	<img src="images/jewel.jpg" alt="" />
+	
+	</figure>
+	</div>
+	
+	<div class="content"> 
+	<h2>MD.JEWEL</h2>
+	<p>I am a new Website designer and developer.As a new worker,i want to say something for my valuable clints.I have believe in my-self,i have also confident in my work.</p>
+	<p>So my dear clints,if you trust me as new worker,i will promise, i work better then others and i can work as your expectation. </p>
+	<a href="#">contact me</a>
+	</div>
+	
+	
+	
+	
+</div>
+</div>	
+	
+	
+<div class="container_full"> 
+<div class="container footer_bg"> 
+
+	<div class="footer"> 
+	<footer> 
+	<h2>BIO <mark>ME</mark> </h2>
+	<ul>
+		<li><a href="#"><img class="fb" src="images/fb.png" alt="fb" /></a></li>
+		<li><a href="#"><img class="twt" src="images/twitter.png" alt="twt" /></a></li>
+		<li><a href="#"><img class="google" src="images/google.png" alt="g" /></a></li>
+		
+	</ul>
+	<p>DESIGNED BY SAIFUL ISLAM JEWEL</p>
+	</footer>
+	
+	</div>
+	
+</div>
+</div>
+	
+	<!-------
+	<div class="container_full"> 
+	<div class="container"> 
+	
+	
+	</div>
+	</div>
+	---------->
+	<!--Call Latest jQuery and all other Scripts-->		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
+	
+	
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+	
+<script type="text/javascript">
+		$(document).ready(function() {
+			var s = $("#sticker");
+			var pos = s.position();					   
+			$(window).scroll(function() {
+				var windowpos = $(window).scrollTop();
+				if (windowpos >= pos.top) {
+					s.addClass("stick");
+				} else {
+					s.removeClass("stick");	
+				}
+			});
+		});
+</script> 
+</body>
+</html>
